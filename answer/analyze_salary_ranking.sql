@@ -1,6 +1,3 @@
-# 課題の解答
-
-1.  **(部署ごとの平均給与を求めるクエリを作成し、結果を表示する。)**
 --CTE
 WITH department_avg AS (
   SELECT
@@ -15,7 +12,6 @@ WITH department_avg AS (
 )
 SELECT * FROM department_avg;
 
-2. **(部署内での給与ランキングを計算し、結果を表示する。)**
 --VIEW
 CREATE VIEW employee_salary_analysis AS
 WITH department_avg AS (
